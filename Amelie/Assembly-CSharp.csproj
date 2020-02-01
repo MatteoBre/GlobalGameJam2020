@@ -67,6 +67,7 @@
     <Compile Include="Assets\playerMovement.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\terrainManager.cs" />
+    <Compile Include="Assets\Scripts\UI\dragNet.cs" />
     <Compile Include="Assets\UI\HealthDisplay.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/admin/Unity/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
