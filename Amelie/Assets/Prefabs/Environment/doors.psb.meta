@@ -94,10 +94,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1806
-      width: 2454
-      height: 1512
-    spriteID: 0b4f29a37f15c864a81c5eb80e00a56f
+      y: 1209
+      width: 1636
+      height: 1008
+    spriteID: 00cc5faa80a6877428cde4d5d469d806
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -107,7 +107,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -15, y: 1716}
+    uvTransform: {x: -9, y: 1148}
   - name: Livello 32
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -115,11 +115,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3117
-      y: 1806
-      width: 644
-      height: 1001
-    spriteID: e824189a0137d404993a7fb744340645
+      x: 934
+      y: 2225
+      width: 430
+      height: 669
+    spriteID: 69170c99533615d4489da096d698ad1e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -129,7 +129,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2193, y: 907}
+    uvTransform: {x: 318, y: 1626}
   - name: Da selezione
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -137,11 +137,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2466
-      y: 1806
-      width: 643
-      height: 1053
-    spriteID: 18e5051798e3681448368b357b9274d3
+      x: 1606
+      y: 4
+      width: 430
+      height: 703
+    spriteID: 169896bead72f3f4384c9733306acf26
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -151,7 +151,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1545, y: 951}
+    uvTransform: {x: 992, y: -566}
   - name: Livello 28
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -159,11 +159,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2466
-      y: 3928
-      width: 272
-      height: 164
-    spriteID: 9bb482d0aa9691346a8f7a40c6096849
+      x: 1606
+      y: 715
+      width: 182
+      height: 111
+    spriteID: aacb2f0e17c860d4da4e027ccd738509
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -173,7 +173,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1353, y: 2468}
+    uvTransform: {x: 864, y: -258}
   - name: Livello 27
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -181,11 +181,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3132
-      y: 4
-      width: 667
-      height: 1195
-    spriteID: 22bf859d328f6ce4a8e2fbb3de113139
+      x: 4
+      y: 3024
+      width: 446
+      height: 798
+    spriteID: 67a2c047622ead2469ba9cdfac24dc4a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -195,7 +195,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2214, y: -712}
+    uvTransform: {x: -608, y: 2547}
   - name: Da selezione_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -203,11 +203,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2466
-      y: 2867
-      width: 643
-      height: 1053
-    spriteID: 5646e6413469cfd45b011664ae4f3f4b
+      x: 496
+      y: 2225
+      width: 430
+      height: 703
+    spriteID: 2428c59ed9a1c7746ab1eb13c3e00394
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -217,7 +217,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1545, y: 2012}
+    uvTransform: {x: -118, y: 1655}
   - name: Livello 32_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -225,11 +225,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2400
-      y: 4
-      width: 724
-      height: 1185
-    spriteID: 03216614e8d33014c8a166916b64514f
+      x: 4
+      y: 2225
+      width: 484
+      height: 791
+    spriteID: 02733a503f1af464292c1a6dce374a94
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -239,7 +239,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1515, y: -737}
+    uvTransform: {x: -586, y: 1731}
   - name: Livello 31
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -249,9 +249,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 2388
-      height: 1794
-    spriteID: 6cdf7761b06bfca4ca0b14987913212c
+      width: 1594
+      height: 1197
+    spriteID: a449cc538ddea85418af1a72523a2d15
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -261,19 +261,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -60, y: -529}
+    uvTransform: {x: -38, y: -351}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
+  importedTextureWidth: 1024
   importedTextureHeight: 2048
-  documentSize: {x: 2480, y: 2480}
+  documentSize: {x: 1654, y: 1654}
   paperDollMode: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 4096
+  textureActualWidth: 2048
   textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
@@ -291,9 +291,9 @@ ScriptedImporter:
     spriteName: Livello 42
     isGroup: 0
     parentIndex: 0
-    spriteID: 0b4f29a37f15c864a81c5eb80e00a56f
+    spriteID: 00cc5faa80a6877428cde4d5d469d806
     layerID: 42
-    mosaicPosition: {x: 4, y: 1806}
+    mosaicPosition: {x: 4, y: 1209}
   - name: portaperta
     spriteName: 
     isGroup: 1
@@ -305,30 +305,30 @@ ScriptedImporter:
     spriteName: Livello 32
     isGroup: 0
     parentIndex: 2
-    spriteID: e824189a0137d404993a7fb744340645
+    spriteID: 69170c99533615d4489da096d698ad1e
     layerID: 32
-    mosaicPosition: {x: 3117, y: 1806}
+    mosaicPosition: {x: 934, y: 2225}
   - name: Da selezione
     spriteName: Da selezione
     isGroup: 0
     parentIndex: 2
-    spriteID: 18e5051798e3681448368b357b9274d3
+    spriteID: 169896bead72f3f4384c9733306acf26
     layerID: 31
-    mosaicPosition: {x: 2466, y: 1806}
+    mosaicPosition: {x: 1606, y: 4}
   - name: Livello 28
     spriteName: Livello 28
     isGroup: 0
     parentIndex: 2
-    spriteID: 9bb482d0aa9691346a8f7a40c6096849
+    spriteID: aacb2f0e17c860d4da4e027ccd738509
     layerID: 30
-    mosaicPosition: {x: 2466, y: 3928}
+    mosaicPosition: {x: 1606, y: 715}
   - name: Livello 27
     spriteName: Livello 27
     isGroup: 0
     parentIndex: 2
-    spriteID: 22bf859d328f6ce4a8e2fbb3de113139
+    spriteID: 67a2c047622ead2469ba9cdfac24dc4a
     layerID: 29
-    mosaicPosition: {x: 3132, y: 4}
+    mosaicPosition: {x: 4, y: 3024}
   - name: strutturaporta
     spriteName: 
     isGroup: 1
@@ -340,21 +340,21 @@ ScriptedImporter:
     spriteName: Da selezione_1
     isGroup: 0
     parentIndex: 7
-    spriteID: 5646e6413469cfd45b011664ae4f3f4b
+    spriteID: 2428c59ed9a1c7746ab1eb13c3e00394
     layerID: 27
-    mosaicPosition: {x: 2466, y: 2867}
+    mosaicPosition: {x: 496, y: 2225}
   - name: Livello 32
     spriteName: Livello 32_1
     isGroup: 0
     parentIndex: 7
-    spriteID: 03216614e8d33014c8a166916b64514f
+    spriteID: 02733a503f1af464292c1a6dce374a94
     layerID: 26
-    mosaicPosition: {x: 2400, y: 4}
+    mosaicPosition: {x: 4, y: 2225}
   - name: Livello 31
     spriteName: Livello 31
     isGroup: 0
     parentIndex: 7
-    spriteID: 6cdf7761b06bfca4ca0b14987913212c
+    spriteID: a449cc538ddea85418af1a72523a2d15
     layerID: 25
     mosaicPosition: {x: 4, y: 4}
   characterData:

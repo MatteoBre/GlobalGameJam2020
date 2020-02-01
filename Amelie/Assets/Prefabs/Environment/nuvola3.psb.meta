@@ -95,9 +95,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 2364
-      height: 1117
-    spriteID: 813e480ad75d01c46b5f3be4c47c7cf9
+      width: 1182
+      height: 559
+    spriteID: 28bb51743390f5044b14c775439e8f7b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -107,7 +107,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -70, y: -1311}
+    uvTransform: {x: -33, y: -653}
   - name: Livello 39_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -116,10 +116,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1129
-      width: 2323
-      height: 1098
-    spriteID: 37cf3e3c175185644aeec1f67e203899
+      y: 571
+      width: 1162
+      height: 549
+    spriteID: 42cfb48f29696fd4383b7215bfc5f3c5
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -129,7 +129,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -107, y: -203}
+    uvTransform: {x: -51, y: -95}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -137,12 +137,12 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 2048
   importedTextureHeight: 2048
-  documentSize: {x: 2480, y: 2480}
+  documentSize: {x: 1240, y: 1240}
   paperDollMode: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 4096
-  textureActualHeight: 4096
+  textureActualWidth: 2048
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
@@ -159,16 +159,16 @@ ScriptedImporter:
     spriteName: Livello 39
     isGroup: 0
     parentIndex: 0
-    spriteID: 813e480ad75d01c46b5f3be4c47c7cf9
+    spriteID: 28bb51743390f5044b14c775439e8f7b
     layerID: 14
     mosaicPosition: {x: 4, y: 4}
   - name: Livello 39
     spriteName: Livello 39_1
     isGroup: 0
     parentIndex: 0
-    spriteID: 37cf3e3c175185644aeec1f67e203899
+    spriteID: 42cfb48f29696fd4383b7215bfc5f3c5
     layerID: 13
-    mosaicPosition: {x: 4, y: 1129}
+    mosaicPosition: {x: 4, y: 571}
   characterData:
     bones: []
     parts: []

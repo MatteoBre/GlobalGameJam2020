@@ -95,9 +95,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 7016
-      height: 1531
-    spriteID: 75830f4ddca70fa43bb7380a7ee662c6
+      width: 4677
+      height: 1020
+    spriteID: f682c0dd9564d614d885c979a0cbcdf7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -115,7 +115,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 2048
   importedTextureHeight: 512
-  documentSize: {x: 7016, y: 1531}
+  documentSize: {x: 4677, y: 1020}
   paperDollMode: 0
   spriteCategoryList:
     categories: []
@@ -130,7 +130,7 @@ ScriptedImporter:
     spriteName: Sfondo
     isGroup: 0
     parentIndex: -1
-    spriteID: 75830f4ddca70fa43bb7380a7ee662c6
+    spriteID: f682c0dd9564d614d885c979a0cbcdf7
     layerID: 1
     mosaicPosition: {x: 4, y: 4}
   characterData:
