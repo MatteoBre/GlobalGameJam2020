@@ -1,0 +1,833 @@
+fileFormatVersion: 2
+guid: 1d10bc6a6833c5a4fa11fa98d2c6dd88
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Vector Smart Object
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7216
+      y: 1813
+      width: 918
+      height: 210
+    spriteID: 3349e3526ddfebe458a0a176e748ca15
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6215, y: 1702}
+  - name: Vector Smart Object_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6020
+      y: 2133
+      width: 1194
+      height: 431
+    spriteID: 9e6a89d42360890448435cbb02e1e842
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5121, y: 555}
+  - name: Livello 25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3000
+      height: 2121
+    spriteID: 5a48251f40e47334198102a02c380694
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Immagine inserita
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6020
+      y: 1195
+      width: 1188
+      height: 881
+    spriteID: 9d91ac768f1037542bc5a4f8f819a9aa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4208, y: 1195}
+  - name: Immagine inserita_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4485
+      y: 2894
+      width: 1304
+      height: 762
+    spriteID: 190cb754f43de7845994cc5c8944a18c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4485, y: 2894}
+  - name: Immagine inserita_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 2133
+      width: 3000
+      height: 753
+    spriteID: 3c8aceb7610b1294e95f06c3fed39e5a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 765}
+  - name: Livello 30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7222
+      y: 2133
+      width: 709
+      height: 345
+    spriteID: 88bfd18b50d1c2448838376e24401bb1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6079, y: 1253}
+  - name: Livello 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7222
+      y: 2486
+      width: 500
+      height: 312
+    spriteID: ada1980e06f99bb42a3b15c332380642
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5785, y: 1683}
+  - name: Immagine inserita_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7939
+      y: 2133
+      width: 243
+      height: 317
+    spriteID: 0c5bd508d4a7ad641aa406dd95fced3b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6328, y: 1129}
+  - name: Da selezione
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7678
+      y: 1081
+      width: 38
+      height: 36
+    spriteID: f331a4c77af62bb448e5ffe4469fdc92
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6088, y: 222}
+  - name: Livello 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7554
+      y: 414
+      width: 253
+      height: 248
+    spriteID: 175ee3e6aad2cca4691344308afeb560
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6257, y: -382}
+  - name: Livello 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7554
+      y: 4
+      width: 476
+      height: 402
+    spriteID: e50fff5c7fd8afa4da28dc74b18465b8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6324, y: -787}
+  - name: Livello 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7554
+      y: 670
+      width: 210
+      height: 219
+    spriteID: 95349a7b6c5d5aa4180c7b05ef854f40
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6395, y: -46}
+  - name: Livello 16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7756
+      y: 1081
+      width: 22
+      height: 22
+    spriteID: 832b1845c8e66a04b8865515bc52d03f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6098, y: 148}
+  - name: Livello 14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7678
+      y: 1125
+      width: 23
+      height: 21
+    spriteID: d0db3979d9f2b574fadc705bef611dc7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5999, y: 185}
+  - name: Livello 14_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7724
+      y: 1081
+      width: 24
+      height: 22
+    spriteID: 6b2b7e22b45479a48b6a0919fa25ad0f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6058, y: 128}
+  - name: Livello 13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7554
+      y: 897
+      width: 234
+      height: 176
+    spriteID: a171f5fda62612c4380935f5872a6390
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6035, y: 48}
+  - name: Livello 10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7730
+      y: 2486
+      width: 277
+      height: 299
+    spriteID: 4c5dcc115cdc85b4dadcc84afc0eb34e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6527, y: 1717}
+  - name: Livello 26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7554
+      y: 1081
+      width: 116
+      height: 93
+    spriteID: f4670eac5a0b0cc448bf116b7d4dae7b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6081, y: 212}
+  - name: Livello 27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7216
+      y: 1195
+      width: 912
+      height: 610
+    spriteID: 33ff2c8cbc9f4794087ffed92aa83952
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6163, y: 617}
+  - name: Livello 18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6020
+      y: 4
+      width: 1526
+      height: 1183
+    spriteID: 197fbf348aa2ef54a9273a822efba2ec
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5288, y: -376}
+  - name: Livello 17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 2894
+      width: 1465
+      height: 1096
+    spriteID: 7fbcdb24129f1f444af6202c9fa76f7a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2255, y: 2464}
+  - name: Livello 19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 4
+      width: 3000
+      height: 2121
+    spriteID: eeadea3366ec34645a936447cb50eaff
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 4}
+  - name: Sfondo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2133
+      width: 3000
+      height: 2121
+    spriteID: 6c93f364b5c87e84ca5ac27ec932a2c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2133}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 3000, y: 2121}
+  paperDollMode: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Vector Smart Object
+    spriteName: Vector Smart Object
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3349e3526ddfebe458a0a176e748ca15
+    layerID: 45
+    mosaicPosition: {x: 7216, y: 1813}
+  - name: Vector Smart Object
+    spriteName: Vector Smart Object_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9e6a89d42360890448435cbb02e1e842
+    layerID: 43
+    mosaicPosition: {x: 6020, y: 2133}
+  - name: Livello 25
+    spriteName: Livello 25
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5a48251f40e47334198102a02c380694
+    layerID: 35
+    mosaicPosition: {x: 4, y: 4}
+  - name: Immagine inserita
+    spriteName: Immagine inserita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d91ac768f1037542bc5a4f8f819a9aa
+    layerID: 34
+    mosaicPosition: {x: 6020, y: 1195}
+  - name: Immagine inserita
+    spriteName: Immagine inserita_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 190cb754f43de7845994cc5c8944a18c
+    layerID: 33
+    mosaicPosition: {x: 4485, y: 2894}
+  - name: Immagine inserita
+    spriteName: Immagine inserita_2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3c8aceb7610b1294e95f06c3fed39e5a
+    layerID: 32
+    mosaicPosition: {x: 3012, y: 2133}
+  - name: Nuovo gruppo
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+  - name: Nuovo gruppo
+    spriteName: 
+    isGroup: 1
+    parentIndex: 6
+    spriteID: 00000000000000000000000000000000
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+  - name: Livello 30
+    spriteName: Livello 30
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 88bfd18b50d1c2448838376e24401bb1
+    layerID: 29
+    mosaicPosition: {x: 7222, y: 2133}
+  - name: Nuovo gruppo
+    spriteName: 
+    isGroup: 1
+    parentIndex: 7
+    spriteID: 00000000000000000000000000000000
+    layerID: 28
+    mosaicPosition: {x: 0, y: 0}
+  - name: Livello 6
+    spriteName: Livello 6
+    isGroup: 0
+    parentIndex: 9
+    spriteID: ada1980e06f99bb42a3b15c332380642
+    layerID: 27
+    mosaicPosition: {x: 7222, y: 2486}
+  - name: Immagine inserita
+    spriteName: Immagine inserita_3
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 0c5bd508d4a7ad641aa406dd95fced3b
+    layerID: 26
+    mosaicPosition: {x: 7939, y: 2133}
+  - name: Da selezione
+    spriteName: Da selezione
+    isGroup: 0
+    parentIndex: 9
+    spriteID: f331a4c77af62bb448e5ffe4469fdc92
+    layerID: 25
+    mosaicPosition: {x: 7678, y: 1081}
+  - name: Livello 9
+    spriteName: Livello 9
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 175ee3e6aad2cca4691344308afeb560
+    layerID: 17
+    mosaicPosition: {x: 7554, y: 414}
+  - name: Livello 8
+    spriteName: Livello 8
+    isGroup: 0
+    parentIndex: 9
+    spriteID: e50fff5c7fd8afa4da28dc74b18465b8
+    layerID: 16
+    mosaicPosition: {x: 7554, y: 4}
+  - name: Livello 12
+    spriteName: Livello 12
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 95349a7b6c5d5aa4180c7b05ef854f40
+    layerID: 15
+    mosaicPosition: {x: 7554, y: 670}
+  - name: Livello 16
+    spriteName: Livello 16
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 832b1845c8e66a04b8865515bc52d03f
+    layerID: 14
+    mosaicPosition: {x: 7756, y: 1081}
+  - name: Livello 14
+    spriteName: Livello 14
+    isGroup: 0
+    parentIndex: 9
+    spriteID: d0db3979d9f2b574fadc705bef611dc7
+    layerID: 13
+    mosaicPosition: {x: 7678, y: 1125}
+  - name: Livello 14
+    spriteName: Livello 14_1
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 6b2b7e22b45479a48b6a0919fa25ad0f
+    layerID: 12
+    mosaicPosition: {x: 7724, y: 1081}
+  - name: Livello 13
+    spriteName: Livello 13
+    isGroup: 0
+    parentIndex: 9
+    spriteID: a171f5fda62612c4380935f5872a6390
+    layerID: 11
+    mosaicPosition: {x: 7554, y: 897}
+  - name: Livello 10
+    spriteName: Livello 10
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 4c5dcc115cdc85b4dadcc84afc0eb34e
+    layerID: 10
+    mosaicPosition: {x: 7730, y: 2486}
+  - name: Livello 26
+    spriteName: Livello 26
+    isGroup: 0
+    parentIndex: 7
+    spriteID: f4670eac5a0b0cc448bf116b7d4dae7b
+    layerID: 8
+    mosaicPosition: {x: 7554, y: 1081}
+  - name: Livello 27
+    spriteName: Livello 27
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 33ff2c8cbc9f4794087ffed92aa83952
+    layerID: 7
+    mosaicPosition: {x: 7216, y: 1195}
+  - name: Livello 18
+    spriteName: Livello 18
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 197fbf348aa2ef54a9273a822efba2ec
+    layerID: 5
+    mosaicPosition: {x: 6020, y: 4}
+  - name: Livello 17
+    spriteName: Livello 17
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 7fbcdb24129f1f444af6202c9fa76f7a
+    layerID: 4
+    mosaicPosition: {x: 3012, y: 2894}
+  - name: Livello 19
+    spriteName: Livello 19
+    isGroup: 0
+    parentIndex: -1
+    spriteID: eeadea3366ec34645a936447cb50eaff
+    layerID: 2
+    mosaicPosition: {x: 3012, y: 4}
+  - name: Sfondo
+    spriteName: Sfondo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6c93f364b5c87e84ca5ac27ec932a2c1
+    layerID: 1
+    mosaicPosition: {x: 4, y: 2133}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  boneGOs: []
+  generateGOHierarchy: 0
+  textureAssetName: intro
+  prefabAssetName: intro_GO
+  spriteLibAssetName: 
