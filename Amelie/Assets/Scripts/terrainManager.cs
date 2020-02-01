@@ -5,9 +5,15 @@ using UnityEngine;
 
 public class terrainManager : MonoBehaviour
 {
+    //terrain and terrainLevels need to be the same size as one represents the height of the object and the other represent the object
     [SerializeField]
     private List<GameObject> terrain;
+    [SerializeField]
+    private List<int> terrainLevels;
     private List<int> nullIndices;
+
+    [SerializeField]
+    private List<float> levels;
 
     private int lastInsertedPosition;
 
@@ -36,7 +42,7 @@ public class terrainManager : MonoBehaviour
         {
             if (terrain[i] != null)
             {
-                Instantiate(terrain[i], new Vector3(currentX, fixedY, 0), Quaternion.identity);
+                Instantiate(terrain[i], new Vector3(currentX, levels[terrainLevels[i]], 0), Quaternion.identity);
             }
             else
             {
