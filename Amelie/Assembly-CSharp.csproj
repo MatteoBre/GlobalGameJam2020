@@ -66,11 +66,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -78,26 +87,17 @@
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
@@ -120,17 +120,17 @@
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
