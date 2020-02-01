@@ -11,6 +11,8 @@ public class fading : MonoBehaviour
 
     private bool countDown;
 
+    private int position;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,8 +27,28 @@ public class fading : MonoBehaviour
         {
             elapsed += Time.deltaTime;
             if (elapsed >= seconds)
-                Destroy(gameObject);
+            {
+                StartCoroutine(destroyGameObject());
+            }
             updateSprites();
+        }
+    }
+
+    IEnumerator destroyGameObject()
+    {
+        destroyChildrenAndDisableColliders();
+        yield return new WaitForSeconds(5);
+        Destroy(gameObject);
+    }
+
+    private void destroyChildrenAndDisableColliders()
+    {
+        int children = transform.childCount;
+        for (int i = 0; i < children; ++i)
+           Destroy(transform.GetChild(i).gameObject);
+        foreach (Collider2D c in GetComponents<Collider2D>())
+        {
+            c.enabled = false;
         }
     }
 
@@ -46,5 +68,12 @@ public class fading : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         activateCountDown();
+        GameObject worldGenerator = GameObject.FindGameObjectWithTag("worldGenerator");
+        worldGenerator.GetComponent<terrainManager>().setTerrainLevel(position + 1);
+    }
+
+    public void setPosition(int position)
+    {
+        this.position = position;
     }
 }
