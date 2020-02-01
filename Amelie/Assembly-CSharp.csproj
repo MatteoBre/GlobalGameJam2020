@@ -62,6 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\movementScript.cs" />
+    <Compile Include="Assets\playerMovement.cs" />
+    <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\terrainManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Brescia/Desktop/GlobalGameJam2020/Amelie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
