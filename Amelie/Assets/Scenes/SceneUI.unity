@@ -188,7 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: cloud-down
+  m_Text: 
 --- !u!222 &115885100
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 479387034}
   - component: {fileID: 479387033}
   m_Layer: 5
-  m_Name: Elem5
+  m_Name: Cloud5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,8 +297,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5913fa8653c64cb41a7a044f6463a4dd, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -415,8 +415,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ed48a4010b7d9d74aa51df79f64fb239, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 514119508}
   - component: {fileID: 514119507}
   m_Layer: 5
-  m_Name: Elem4
+  m_Name: Cloud4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -533,8 +533,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 60fc05e81f007b145bbfc3d0379beaac, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -799,7 +799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: cloud-down
+  m_Text: 
 --- !u!222 &985752025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -942,7 +942,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: cloud-down
+  m_Text: 
 --- !u!222 &1335103062
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1112,7 +1112,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: cloud-down
+  m_Text: 
 --- !u!222 &1377776031
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1134,7 +1134,7 @@ GameObject:
   - component: {fileID: 1574948485}
   - component: {fileID: 1574948484}
   m_Layer: 5
-  m_Name: Elem3
+  m_Name: Cloud3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1221,8 +1221,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e3528d537f5658f4c9d7e1aa265f2709, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1339,8 +1339,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 1013be3db7467894ea434a1be8b1ef4c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1425,7 +1425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: cloud-down
+  m_Text: 
 --- !u!222 &1820135140
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1530,7 +1530,7 @@ GameObject:
   - component: {fileID: 1955390495}
   - component: {fileID: 1955390494}
   m_Layer: 5
-  m_Name: Elem1
+  m_Name: Cloud1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1617,8 +1617,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 414ca9ee2dbc12b428d5f96497e69494, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1703,7 +1703,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: cloud-down
+  m_Text: 
 --- !u!222 &2002973687
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1780,7 +1780,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: cloud-down
+  m_Text: 
 --- !u!222 &2009741944
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1802,7 +1802,7 @@ GameObject:
   - component: {fileID: 2107893820}
   - component: {fileID: 2107893819}
   m_Layer: 5
-  m_Name: Elem2
+  m_Name: Cloud2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1889,8 +1889,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ba018c1f52de965438cac4bf486e78e6, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
