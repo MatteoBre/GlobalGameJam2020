@@ -120,12 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!95 &1068019396 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 306893069965921850, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-    type: 3}
-  m_PrefabInstance: {fileID: 2603808094703694593}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1132879556 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8381082154328036535, guid: 641b07ed60d51c145a476a69f2afe315,
@@ -322,96 +316,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 254321713, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49092853
-      objectReference: {fileID: 0}
-    - target: {fileID: 254321713, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.87119985
-      objectReference: {fileID: 0}
-    - target: {fileID: 254321713, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -301.197
-      objectReference: {fileID: 0}
-    - target: {fileID: 324168955, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.3044176
-      objectReference: {fileID: 0}
-    - target: {fileID: 324168955, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9525387
-      objectReference: {fileID: 0}
-    - target: {fileID: 324168955, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -35.446003
-      objectReference: {fileID: 0}
-    - target: {fileID: 642448280, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5080567
-      objectReference: {fileID: 0}
-    - target: {fileID: 642448280, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.86132365
-      objectReference: {fileID: 0}
-    - target: {fileID: 642448280, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 61.069004
-      objectReference: {fileID: 0}
-    - target: {fileID: 898765971, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.41109452
-      objectReference: {fileID: 0}
-    - target: {fileID: 898765971, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9115928
-      objectReference: {fileID: 0}
-    - target: {fileID: 898765971, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 311.452
-      objectReference: {fileID: 0}
-    - target: {fileID: 1068019399, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1068019396}
-    - target: {fileID: 1068019399, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: runSpeed
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 1068019400, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
-      propertyPath: m_MovementSmoothing
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 203198459766971724, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.8164434
-      objectReference: {fileID: 0}
-    - target: {fileID: 203198459766971724, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5774256
-      objectReference: {fileID: 0}
-    - target: {fileID: 420502883720088199, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.4550406
-      objectReference: {fileID: 0}
-    - target: {fileID: 420502883720088199, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.8904706
-      objectReference: {fileID: 0}
-    - target: {fileID: 437774259658617037, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.2387066
-      objectReference: {fileID: 0}
-    - target: {fileID: 437774259658617037, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9710918
-      objectReference: {fileID: 0}
     - target: {fileID: 3996751832338849353, guid: 9b8bfa8fb8a976c4997911608628fdf3,
         type: 3}
       propertyPath: m_Name
@@ -471,36 +375,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5120292746911938630, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7115786
-      objectReference: {fileID: 0}
-    - target: {fileID: 5120292746911938630, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.70260656
-      objectReference: {fileID: 0}
-    - target: {fileID: 6992480643349112101, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.9138199
-      objectReference: {fileID: 0}
-    - target: {fileID: 6992480643349112101, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.4061197
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585315651410455939, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.45775875
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585315651410455939, guid: 9b8bfa8fb8a976c4997911608628fdf3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.8890765
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b8bfa8fb8a976c4997911608628fdf3, type: 3}
