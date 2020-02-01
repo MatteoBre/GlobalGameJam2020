@@ -11,6 +11,8 @@ public class fading : MonoBehaviour
 
     private bool countDown;
 
+    private int position;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,5 +48,12 @@ public class fading : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         activateCountDown();
+        GameObject worldGenerator = GameObject.FindGameObjectWithTag("worldGenerator");
+        worldGenerator.GetComponent<terrainManager>().setTerrainLevel(position + 1);
+    }
+
+    public void setPosition(int position)
+    {
+        this.position = position;
     }
 }

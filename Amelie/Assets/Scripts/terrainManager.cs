@@ -10,12 +10,13 @@ public class terrainManager : MonoBehaviour
     private List<GameObject> terrain;
     [SerializeField]
     private List<int> terrainLevels;
-    private List<int> nullIndices;
+    public List<int> nullIndices;
+
+    public GameObject salita;
+    public GameObject discesa;
 
     [SerializeField]
     private List<float> levels;
-
-    private int lastInsertedPosition;
 
     //sprite variables
     [SerializeField]
@@ -30,7 +31,6 @@ public class terrainManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lastInsertedPosition = -1;
         nullIndices = new List<int>();
         initializeSpaceAndNullIndices();
     }
@@ -42,7 +42,12 @@ public class terrainManager : MonoBehaviour
         {
             if (terrain[i] != null)
             {
-                Instantiate(terrain[i], new Vector3(currentX, levels[terrainLevels[i]], 0), Quaternion.identity);
+                GameObject obj = Instantiate(terrain[i], new Vector3(currentX, levels[terrainLevels[i] - 1], 0), terrain[i].transform.rotation);
+                obj.GetComponent<fading>().setPosition(i);
+                if(i < terrain.Count - 1 && terrainLevels[i + 1] == 0)
+                {
+                    terrainLevels[i + 1] = terrainLevels[i];
+                }
             }
             else
             {
@@ -54,10 +59,7 @@ public class terrainManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.O))
-            insert(terrain[0]);
-        if (Input.GetKeyDown(KeyCode.G))
-            destroyLast();
+
     }
 
     public void insert(GameObject obj)
@@ -66,12 +68,34 @@ public class terrainManager : MonoBehaviour
         {
             if (terrain[nullIndices[i]] == null)
             {
-                GameObject newInstance = Instantiate(obj, new Vector3(startX + nullIndices[i] * spriteLength, fixedY, 0), Quaternion.identity);
+                int levelIndex = findLevelIndex(obj, i);
+                GameObject newInstance = Instantiate(obj, new Vector3(startX + nullIndices[i] * spriteLength, levels[levelIndex], 0), obj.transform.rotation);
+                newInstance.GetComponent<fading>().setPosition(nullIndices[i]);
+                terrainLevels[nullIndices[i]] = levelIndex + 1;
                 terrain[nullIndices[i]] = newInstance;
-                lastInsertedPosition = nullIndices[i];
                 return;
             }
         }
+    }
+
+    private int findLevelIndex(GameObject obj, int i)
+    {
+        int levelModifier = terrain[nullIndices[i] - 1].GetComponent<levelModifier>().getLevelModifier();
+        int levelIndex;
+        if (terrainLevels[nullIndices[i]] == 0)
+        {
+            levelIndex = terrainLevels[nullIndices[i] - 1] - 1 + levelModifier;
+        }
+        else
+        {
+            levelIndex = terrainLevels[nullIndices[i]] - 1 + levelModifier;
+        }
+
+        if (levelIndex <= -1)
+            return 0;
+        if (levelIndex >= levels.Count)
+            return levels.Count - 1;
+        return levelIndex;
     }
 
     public void destroyLast()
@@ -85,5 +109,17 @@ public class terrainManager : MonoBehaviour
                 return;
             }
         }
+    }
+
+    public void setTerrainLevel(int position)
+    {
+        if (nullIndices.Contains(position - 1))
+        {
+            nullIndices.Remove(position - 1);
+        }
+
+        if (position == terrainLevels.Count || terrainLevels[position] != 0)
+            return;
+        terrainLevels[position] = terrainLevels[position - 1];
     }
 }
