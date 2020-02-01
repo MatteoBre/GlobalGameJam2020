@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8619233039864199986}
   m_Layer: 0
-  m_Name: cielo_seamless
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -10
   m_Sprite: {fileID: 2619578810359856859, guid: 523842af2c9129c40bd3d60e084244ba,
     type: 3}
   m_Color: {r: 0.7783019, g: 0.95769507, b: 1, a: 1}
