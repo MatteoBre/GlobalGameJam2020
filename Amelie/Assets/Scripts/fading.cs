@@ -27,8 +27,28 @@ public class fading : MonoBehaviour
         {
             elapsed += Time.deltaTime;
             if (elapsed >= seconds)
-                Destroy(gameObject);
+            {
+                StartCoroutine(destroyGameObject());
+            }
             updateSprites();
+        }
+    }
+
+    IEnumerator destroyGameObject()
+    {
+        destroyChildrenAndDisableColliders();
+        yield return new WaitForSeconds(5);
+        Destroy(gameObject);
+    }
+
+    private void destroyChildrenAndDisableColliders()
+    {
+        int children = transform.childCount;
+        for (int i = 0; i < children; ++i)
+           Destroy(transform.GetChild(i).gameObject);
+        foreach (Collider2D c in GetComponents<Collider2D>())
+        {
+            c.enabled = false;
         }
     }
 
