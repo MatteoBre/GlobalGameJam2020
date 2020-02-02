@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -9,6 +10,7 @@ public class dragNet : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     public static GameObject itemBeingDragged;
     Vector3 startPosition;
     private int bookCounter;
+    private int totalBooks;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -44,6 +46,22 @@ public class dragNet : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     void Start()
     {
         bookCounter = 0;
+        totalBooks = countTotalBooks();
+    }
+
+    private int countTotalBooks()
+    {
+        return GameObject.FindGameObjectsWithTag("Book").Length;
+    }
+
+    public int getTotalBooksCount()
+    {
+        return totalBooks;
+    }
+
+    public int getCurrentBooksCount()
+    {
+        return bookCounter;
     }
 
     // Update is called once per frame

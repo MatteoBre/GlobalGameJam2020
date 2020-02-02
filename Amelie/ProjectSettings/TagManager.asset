@@ -8,6 +8,7 @@ TagManager:
   - Cloud
   - Book
   - fader
+  - BookCounter
   layers:
   - Default
   - TransparentFX
