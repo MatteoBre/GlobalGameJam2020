@@ -12,10 +12,11 @@ public class playerMovement : MonoBehaviour
     private float horizontalMove;
 
     private bool jump = false;
+    private AudioSource audioData;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioData = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -32,6 +33,10 @@ public class playerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (jump)
+        {
+            audioData.Play(0);
+        }
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
     }
