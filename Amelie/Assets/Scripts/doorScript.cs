@@ -10,10 +10,12 @@ public class doorScript : MonoBehaviour
     private GameObject particles;
     [SerializeField]
     private string sceneToLoad;
+    private dragNet bookCounter;
     // Start is called before the first frame update
     void Start()
     {
         particles.SetActive(false);
+        bookCounter = GameObject.FindGameObjectWithTag("BookCounter").GetComponent<dragNet>();
     }
 
     // Update is called once per frame
@@ -24,8 +26,12 @@ public class doorScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GetComponent<Animator>().Play("doorAnim");
-        StartCoroutine(ActivateParticles());
+        bool allBooks = bookCounter.getCurrentBooksCount() >= bookCounter.getTotalBooksCount();
+        if (allBooks)
+        {
+            GetComponent<Animator>().Play("doorAnim");
+            StartCoroutine(ActivateParticles());
+        }
     }
 
     private IEnumerator ActivateParticles()
