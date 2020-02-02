@@ -11,6 +11,7 @@ public class fadeOut : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GetComponent<Image>().enabled = false;
         fade = false;
     }
 
@@ -30,5 +31,6 @@ public class fadeOut : MonoBehaviour
     public void startFading()
     {
         fade = true;
+        GetComponent<Image>().enabled = true;
     }
 }
