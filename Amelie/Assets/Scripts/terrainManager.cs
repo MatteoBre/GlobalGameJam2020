@@ -106,6 +106,7 @@ public class terrainManager : MonoBehaviour
             {
                 Destroy(terrain[nullIndices[i]]);
                 terrain[nullIndices[i]] = null;
+                terrainLevels[nullIndices[i]] = 0;
                 return;
             }
         }
