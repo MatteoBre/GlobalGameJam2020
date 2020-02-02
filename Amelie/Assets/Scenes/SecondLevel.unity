@@ -829,6 +829,7 @@ GameObject:
   - component: {fileID: 1522865398}
   - component: {fileID: 1522865397}
   - component: {fileID: 1522865400}
+  - component: {fileID: 1522865401}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -916,6 +917,25 @@ MonoBehaviour:
   objToFollow: {fileID: 39583739}
   maxX: 1000
   offset: {x: 0, y: 0, z: -10}
+--- !u!95 &1522865401
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522865396}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 623ca7c09ed520c43bf984f4e75b249c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1560882047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1336,7 +1356,7 @@ PrefabInstance:
         type: 3}
       propertyPath: terrain.Array.data[0]
       value: 
-      objectReference: {fileID: 2181227698423562365, guid: 8a9074f2b2a7e75418111a82881a45cb,
+      objectReference: {fileID: 2608092057156246385, guid: 03e33a973fb9cb1488e29c32214717db,
         type: 3}
     - target: {fileID: 2331960819650383759, guid: 6864c9cc40861f64ea81a623a444fd55,
         type: 3}
