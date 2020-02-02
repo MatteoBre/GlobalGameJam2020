@@ -86,29 +86,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Livello 41
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 815
-      width: 1167
-      height: 790
-    spriteID: 7ba8d68f4e37a4543b1370add592ec7e
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -27, y: 398}
-  - name: Livello 42
+  - name: cloud_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -117,9 +95,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1186
-      height: 803
-    spriteID: d89f9c25ecbefc34b9161319335c0eec
+      width: 1167
+      height: 790
+    spriteID: 7ba8d68f4e37a4543b1370add592ec7e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -136,13 +114,13 @@ ScriptedImporter:
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 2048
-  importedTextureHeight: 2048
+  importedTextureHeight: 1024
   documentSize: {x: 1240, y: 1240}
   paperDollMode: 0
   spriteCategoryList:
     categories: []
   textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualHeight: 1024
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
@@ -155,19 +133,12 @@ ScriptedImporter:
     spriteID: 00000000000000000000000000000000
     layerID: 19
     mosaicPosition: {x: 0, y: 0}
-  - name: Livello 41
-    spriteName: Livello 41
+  - name: cloud_4
+    spriteName: cloud_4
     isGroup: 0
     parentIndex: 0
     spriteID: 7ba8d68f4e37a4543b1370add592ec7e
     layerID: 18
-    mosaicPosition: {x: 4, y: 815}
-  - name: Livello 42
-    spriteName: Livello 42
-    isGroup: 0
-    parentIndex: 0
-    spriteID: d89f9c25ecbefc34b9161319335c0eec
-    layerID: 17
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []

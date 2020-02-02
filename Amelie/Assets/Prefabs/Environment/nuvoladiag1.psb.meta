@@ -86,7 +86,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Livello 42
+  - name: diagonal
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -133,8 +133,8 @@ ScriptedImporter:
     spriteID: 00000000000000000000000000000000
     layerID: 27
     mosaicPosition: {x: 0, y: 0}
-  - name: Livello 42
-    spriteName: Livello 42
+  - name: diagonal
+    spriteName: diagonal
     isGroup: 0
     parentIndex: 0
     spriteID: 18136fc4e3546e3439f83a82e55788f4

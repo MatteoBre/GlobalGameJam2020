@@ -86,7 +86,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Livello 32
+  - name: cloud
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -108,41 +108,19 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -4, y: -582}
-  - name: Livello 31
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 666
-      width: 1207
-      height: 619
-    spriteID: 98eecc09b4e0cca43aec46502e9f5f4a
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -20, y: 55}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 2048
-  importedTextureHeight: 2048
+  importedTextureHeight: 1024
   documentSize: {x: 1240, y: 1240}
   paperDollMode: 0
   spriteCategoryList:
     categories: []
   textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualHeight: 1024
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
@@ -155,20 +133,13 @@ ScriptedImporter:
     spriteID: 00000000000000000000000000000000
     layerID: 7
     mosaicPosition: {x: 0, y: 0}
-  - name: Livello 32
-    spriteName: Livello 32
+  - name: cloud
+    spriteName: cloud
     isGroup: 0
     parentIndex: 0
     spriteID: dc0a84421046fe747a6f806d78d692ea
     layerID: 6
     mosaicPosition: {x: 4, y: 4}
-  - name: Livello 31
-    spriteName: Livello 31
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 98eecc09b4e0cca43aec46502e9f5f4a
-    layerID: 5
-    mosaicPosition: {x: 4, y: 666}
   characterData:
     bones: []
     parts: []
