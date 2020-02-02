@@ -8,6 +8,7 @@ public class dragNet : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
 
     public static GameObject itemBeingDragged;
     Vector3 startPosition;
+    private int bookCounter;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -18,6 +19,19 @@ public class dragNet : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     public void OnDrag(PointerEventData eventData)
     {
         transform.position = Input.mousePosition;
+
+        Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(pos, new Vector2(0, 0), 0.01f);
+
+        for (int i = 0; i < hits.Length; i++)
+        {
+            if (hits[i].collider.tag == "Book")
+            {
+                GameObject book = hits[i].collider.gameObject;
+                Destroy(book);
+                bookCounter++;
+            }
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -29,7 +43,7 @@ public class dragNet : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragH
     // Start is called before the first frame update
     void Start()
     {
-        
+        bookCounter = 0;
     }
 
     // Update is called once per frame
