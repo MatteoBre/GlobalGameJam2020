@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void playGame()
     {
-        SceneManager.LoadScene("StartingLevel");
+        SceneManager.LoadScene("RabbitScene");
     }
 
     public void quit()
