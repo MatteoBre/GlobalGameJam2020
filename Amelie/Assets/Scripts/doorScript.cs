@@ -2,11 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class doorScript : MonoBehaviour
 {
     [SerializeField]
     private GameObject particles;
+    [SerializeField]
+    private string sceneToLoad;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,5 +34,7 @@ public class doorScript : MonoBehaviour
         particles.SetActive(true);
         yield return new WaitForSeconds(2);
         GameObject.FindGameObjectWithTag("fader").GetComponent<fadeOut>().startFading();
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
