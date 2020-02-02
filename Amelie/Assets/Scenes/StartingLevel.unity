@@ -133,6 +133,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 564954650, guid: bbc042ccd17ab9348ba111972911ba48, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 564954650, guid: bbc042ccd17ab9348ba111972911ba48, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 5271941529267518827, guid: bbc042ccd17ab9348ba111972911ba48,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
