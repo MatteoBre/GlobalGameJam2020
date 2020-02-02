@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 257883658514664647}
   m_Layer: 8
   m_Name: nuvola1
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -38,6 +38,12 @@ public class terrainManager : MonoBehaviour
     private void initializeSpaceAndNullIndices()
     {
         float currentX = startX;
+        for (int i = 0; i < terrain.Count; i++)
+        {
+            if (terrain[i] == null)
+                terrainLevels[i] = 0;
+        }
+
         for (int i = 0; i < terrain.Count; i++, currentX += spriteLength)
         {
             if (terrain[i] != null)

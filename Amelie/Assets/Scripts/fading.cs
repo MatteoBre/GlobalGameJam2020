@@ -67,7 +67,8 @@ public class fading : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        activateCountDown();
+        if(gameObject.tag=="Cloud")
+            activateCountDown();
         GameObject worldGenerator = GameObject.FindGameObjectWithTag("worldGenerator");
         worldGenerator.GetComponent<terrainManager>().setTerrainLevel(position + 1);
     }
